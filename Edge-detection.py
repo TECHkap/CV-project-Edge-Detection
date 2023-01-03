@@ -7,7 +7,7 @@ import cv2 as cv
 
 
 #===================== load image and convert to grayscale  ==============================
-img = cv.imread('/home/tenkapo/Downloads/logo_om.png')  #read the image
+img = cv.imread('./logo_om.png')  #read the image
 
 # Display original image
 cv.imshow('Original', img)
